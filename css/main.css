@@ -72,3 +72,29 @@ header {
   margin-top: 20px;
   border-radius: 8px;
 }
+
+/* Infor section styles */
+
+.infor-section h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px 0;
+} 
+
+.our-work {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-between;
+  padding: 40px 10%;
+  gap: 20px;  
+} 
+
+.our-work a img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: unset;
+  border: solid 2px #3882f6;
+}
