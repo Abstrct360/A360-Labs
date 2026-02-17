@@ -5,10 +5,70 @@
 }
 
 body {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.6;
   background-color: #ffffff;
   color: #000000;
-  /*margin: 0 10% 0 10%;*/
-  padding: 8px;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 20px 0;
+}
+
+.hero-section div h1 {
+  color: #f9faf8;
+  font-size: 48x;
+  font-weight: 900;
+}
+
+.hero-section div p, .nav-links li a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  align-items: center;
+  text-decoration: none;
+} 
+.logo {
+  margin-right: auto;
+  width: 800px;
+  height: auto;
+  /*font-size: 24px;
+  color: #f9faf8;*/
+} 
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 0 10%;
+  gap: 80px;
+}
+
+.hero-section .best-img {
+  width: 400px;
+  height: auto;
+  align-self: center;
+  margin-left: auto;
+}
+
+.hero-section .get-started {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 8px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 8px;
 }
